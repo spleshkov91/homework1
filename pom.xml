@@ -7,7 +7,13 @@
   <version>1.0-SNAPSHOT</version>
   <name>homeWork1 Maven Webapp</name>
   <url>http://maven.apache.org</url>
-
+  <prerequisites>
+    <maven>3.9.8</maven>
+  </prerequisites>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
