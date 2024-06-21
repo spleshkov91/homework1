@@ -12,6 +12,6 @@ public class MyController {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return "Hello and welcome!! Some text!";
+        return "Hello and welcome!! Some text! Some text";
     }
 }
